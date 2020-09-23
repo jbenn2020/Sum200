@@ -1,6 +1,7 @@
 // Author : Jeffrey Benn
 // Date   : 2020/09/22
 // Chapter 5 Exercise 9 Sum200
+// New feature of top value added.
 
 using System;
 using System.Collections.Generic;
@@ -23,11 +24,12 @@ namespace Sum200
         private void btnStart_Click(object sender, EventArgs e)
         {
             int sum = 0;
+            int topValue = Convert.ToInt32(txtTopValue.Text);
 
-            for (int i = 0; i <= 200; i++)
+            for (int i = 0; i <= topValue; i++)
             {
                 sum += i;
-                if (i == 100) txtHalfWay.Text = Convert.ToString(sum);
+                if (i == topValue / 2) txtHalfWay.Text = Convert.ToString(sum);
                 //Console.WriteLine("i = " + i + " sum = " + sum);
             }
 
