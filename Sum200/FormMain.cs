@@ -1,4 +1,4 @@
-﻿// Author : Jeffrey Benn
+// Author : Jeffrey Benn
 // Date   : 2020/09/22
 // Chapter 5 Exercise 9 Sum200
 
